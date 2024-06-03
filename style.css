@@ -1,0 +1,62 @@
+.card-img-top{
+    
+    width: 20rem;
+    
+}
+.pictures{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    overflow:hidden ;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    justify-content: center
+}
+#container{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+.btn{
+    color: white;
+    background-color: black;
+    width: 20rem;
+    
+}
+ .card{
+    width: 22rem;
+    margin-top: 50px;
+    margin-right: 50px;
+    border: white;
+    
+ }
+ .card-title{
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid blue;
+    width: 20rem;
+    font-weight: bold;
+    
+    
+ }
+.prezzo{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: red;
+    width: 20rem;
+}
+
+
+.removeBtn{
+    width: 20rem;
+    margin-top:0.5rem ;
+    background-color: greenyellow;
+}
+.prova{
+    opacity: 0.5;;
+}
