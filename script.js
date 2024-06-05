@@ -25,14 +25,16 @@ var price=0
            */
         let container = document.querySelector("#container")
         let contenuto=`
-            <div  class="card" >
+            <div  class="card" > 
             <img class= "card-img-top"  src="${element.img}" />
             <div class="card-title">  ${element.title} </div>
             <p class="prezzo">${element.price} Euro</p>
+            <div class="infoDiv"><a class="info" href="./dettagli.html?asin=${element.asin}">premi per info </a></div>
             <button onclick="prendicard('${element.asin}')" class="btn">acquista</button>
             <button onclick="btnRemove('${element.asin}')" class="removeBtn">Rimuovi</button>
             </div>
             `
+            //&price=${element.price} se voglio mettere il prezzo oltre
             container.innerHTML += contenuto
           
         //   let contenuto=""
@@ -70,9 +72,11 @@ function search(){
             <img class= "card-img-top"  src="${element.img}" />
             <div class="card-title">  ${element.title} </div>
             <p class="prezzo">${element.price} Euro</p>
+            <div class="infoDiv"><a class="info" href="./dettagli.html?asin=${element.asin}">premi per info </a></div>
             <button onclick="prendicard('${element.asin}')" class="btn">acquista</button>
             <button class="removeBtn">Rimuovi</button>
             </div>
+            
             `
             container.innerHTML += contenuto
             
